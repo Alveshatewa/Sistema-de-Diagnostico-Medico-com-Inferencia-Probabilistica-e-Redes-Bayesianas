@@ -1,0 +1,103 @@
+body {
+  background-color: #f2f4f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.diagnose-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.diagnose-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1d4ed8;;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.sintoma-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.sintoma-group label {
+  width: 160px;
+  font-weight: 500;
+  color: #333;
+}
+
+.sintoma-group select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btn-diagnose {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #2563eb;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-diagnose:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-diagnose:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.upload-section {
+  margin-top: 30px;
+}
+
+.upload-section input[type="file"] {
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.resultado {
+  margin-top: 30px;
+  padding: 16px;
+  background-color: #f9fafb;
+  border-left: 4px solid #2563eb;
+  border-radius: 6px;
+}
+
+.resultado h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+.resultado li {
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-top: 20px;
+  text-align: center;
+}

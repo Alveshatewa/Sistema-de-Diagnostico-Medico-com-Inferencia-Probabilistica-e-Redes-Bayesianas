@@ -1,0 +1,67 @@
+.upload-container {
+    padding: 24px;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .upload-input {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .upload-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background-color: #218838;
+  }
+  
+  .resultado-container {
+    margin-top: 24px;
+  }
+  
+  .resultado-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  .resultado-list {
+    margin-top: 8px;
+    padding-left: 20px;
+  }
+  
+  .resultado-item {
+    font-size: 16px;
+    color: #333;
+  }
